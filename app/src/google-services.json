@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "336277606806",
+    "firebase_url": "https://mybandung-adventure.firebaseio.com",
+    "project_id": "mybandung-adventure",
+    "storage_bucket": "mybandung-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336277606806:android:e58a7271f9aab04d",
+        "android_client_info": {
+          "package_name": "com.example.masterluthfi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336277606806-hbau7bvo8l44dtqb1t109bcq869ck6sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbwLVh3Cp7-CCuGLXcguxwhJIxOzzVsKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

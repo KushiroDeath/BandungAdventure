@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pan.rpl.MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/gender"
+        android:onClick="gender"/>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/location"
+        android:onClick="location"/>
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="170dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seall"
+        android:layout_marginTop="11dp"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/nearby" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/textView2"
+        app:srcCompat="@drawable/gedungsate" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Trending Instagram Photos" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginTop="11dp"
+        android:text="Popular Location"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/seall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:textSize="15dp"
+        android:text="See all" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/maribaya" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView2"
+        app:srcCompat="@drawable/alun" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        app:srcCompat="@drawable/tahura" />
+
+</RelativeLayout>

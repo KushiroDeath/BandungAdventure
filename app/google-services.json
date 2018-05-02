@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336277606806",
+    "firebase_url": "https://mybandung-adventure.firebaseio.com",
+    "project_id": "mybandung-adventure",
+    "storage_bucket": "mybandung-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336277606806:android:0454da9eba8cc7b4",
+        "android_client_info": {
+          "package_name": "com.example.masterluthfi.bandungadventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336277606806-9ul1oiiqn343g0739s7vjbuqs6jddj4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masterluthfi.bandungadventure",
+            "certificate_hash": "2462ae2793a670e05c29a16a6447157f205c517c"
+          }
+        },
+        {
+          "client_id": "336277606806-hbau7bvo8l44dtqb1t109bcq869ck6sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbwLVh3Cp7-CCuGLXcguxwhJIxOzzVsKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336277606806-hbau7bvo8l44dtqb1t109bcq869ck6sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
